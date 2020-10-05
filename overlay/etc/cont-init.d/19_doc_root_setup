@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/with-contenv bash
 
 if [ -s /etc/DOCUMENT_ROOT ]; then
     DOCUMENT_ROOT=`cat /etc/DOCUMENT_ROOT`
